@@ -3,8 +3,14 @@ import React from 'react';
 export default function FirstComponent(props) {
   return (
     
-    
-        
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="styles.css">
+            <title>Raptor - Free Bootstrap 4 Template by Colorlib</title>
+        </head>
+        <body>
+            <header>
             <div class="wrapper">
                 <div class="container">
                     <nav class="navbar">
@@ -39,7 +45,7 @@ export default function FirstComponent(props) {
                     </nav>
                 </div>
             </div>
-        
+            </header>
             <div class="container">
                 <div class="slider-text">
                     <div class="left_block">
@@ -51,8 +57,8 @@ export default function FirstComponent(props) {
                 </div>
 
             </div>
-       
-    
+        </body>
+    </html>
 
 
   )
