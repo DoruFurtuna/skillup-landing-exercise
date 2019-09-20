@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FirstComponent(props) {
   return (
-    
+    <!DOCTYPE html>
     <html>
         <head>
             <meta charset="utf-8">
@@ -11,6 +11,7 @@ export default function FirstComponent(props) {
         </head>
         <body>
             <header>
+            <!-- NAVIGATION -->
             <div class="wrapper">
                 <div class="container">
                     <nav class="navbar">
@@ -45,18 +46,8 @@ export default function FirstComponent(props) {
                     </nav>
                 </div>
             </div>
+            
             </header>
-            <div class="container">
-                <div class="slider-text">
-                    <div class="left_block">
-                        <h1>
-                            Design.
-                            </br>
-                        </h1>
-                    </div>
-                </div>
-
-            </div>
         </body>
     </html>
 
