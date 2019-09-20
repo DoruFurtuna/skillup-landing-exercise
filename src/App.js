@@ -10,9 +10,8 @@ function App() {
   return (
     <div className="App">
       <FirstComponent></FirstComponent>
-    </div>
-    <div className="App">
       <FunFactsComponent></FunFactsComponent>
+
     </div>
   );
 

@@ -1,8 +1,9 @@
 import React from 'react';
 
 export default function FunFactsComponent(props) {
-    return <div>FunFacts Component</div>;
-    (
-
+    return (
+        <div>
+            <div>FunFacts Component</div>
+        </div>
     );
 }
