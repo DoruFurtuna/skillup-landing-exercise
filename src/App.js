@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FirstComponent from './components/FirstComponent';
+import DomainComponent from "./components/DomainComponent/component";
 
 import FunFactsComponent from './components/FunFactsComponent';
 
@@ -10,6 +11,9 @@ function App() {
   return (
     <div className="App">
       <FirstComponent></FirstComponent>
+
+      <DomainComponent></DomainComponent>
+
       <FunFactsComponent></FunFactsComponent>
 
     </div>
