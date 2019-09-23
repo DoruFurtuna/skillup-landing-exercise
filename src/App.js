@@ -14,8 +14,8 @@ function App() {
       <FirstComponent />
       <BestPricing />
       <DomainComponent />
-      <FunFactsComponent />
       <ChooseUsComponent />
+      <FunFactsComponent />
     </div>
   );
 }
