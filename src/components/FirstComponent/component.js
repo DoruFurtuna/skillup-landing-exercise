@@ -6,13 +6,13 @@ import "./styles.scss";
 export default function FirstComponent(props) {
   return (
       <div>
-            <div class="wrapper">
-                <div class="container">
-                    <nav class="navbar">
-                        <a class="logo" href="index.html"><img src=""/></a>
-                        <ul class="menu">
+            <div className="wrapper">
+                <div className="container">
+                    <nav className="navbar">
+                        <a className="logo" href="index.html"><img src="" alt=""/></a>
+                        <ul className="menu">
                             <li>
-                                <a class="active" href="index.html">
+                                <a className="active" href="index.html">
                                     Home
                                 </a>
                             </li>
@@ -32,7 +32,7 @@ export default function FirstComponent(props) {
                                 <a href="#">Contact</a>
                             </li>
                             <li>
-                            <a href="contact.html" class="nav-link">
+                            <a href="contact.html" className="nav-link">
                                 <span>Get started</span>
                             </a>
                             </li>
@@ -40,10 +40,10 @@ export default function FirstComponent(props) {
                     </nav>
                 </div>
             </div>
-            <div class="container">
-                <div class="slider-wrapper">
-                <div class="slider-text">
-                    <div class="left_block">
+            <div className="container">
+                <div className="slider-wrapper">
+                <div className="slider-text">
+                    <div className="left_block">
                         <h1>
                             Design.
                             <br/>
@@ -54,11 +54,11 @@ export default function FirstComponent(props) {
                         <p>
                         A small river named Duden flows by their place and supplies it with the necessary regelialia.
                         </p>
-                        <a href="#" class="btn">Get started</a>
+                        <a href="#" className="btn">Get started</a>
                     </div>
-                    <div class="right_block">
-                        <div class="slider-carousel">
-                            <img src="../../images/dashboard_full_2.webp" alt></img>
+                    <div className="right_block">
+                        <div className="slider-carousel">
+                            <img src="../../images/dashboard_full_2.webp" alt=""></img>
                         </div>
                     </div>
                 </div>
